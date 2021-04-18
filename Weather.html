@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            body{ background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+            }
+            .btn1{
+            padding: 10px;
+            height:6%;
+            width:9%;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-weight:bold;
+        }
+        </style>
+      <script src="weather.js"></script>
+    </head>
+    <body background="https://cdn.pixabay.com/photo/2014/04/05/11/39/rain-316579_960_720.jpg" link="#000" alink="#017bf5" vlink="#000">
+       <center>
+           <br>
+           <h1><i> <font color="white" face="Lato" size="7" >Weather Forecast</font></i></h1>
+           <br>
+           <br>
+           <b><font color="white">Enter City : </font></b>
+           <input type="text" name="cityName" id="cityName"></input>
+            <br>
+            <br>
+           <button value="details" class="btn1" onclick="getData()">Click Here</button><br><br>
+           <br>
+           <div id="div"></div>
+       </center>
+    </body>
+</html>
