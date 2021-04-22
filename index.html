@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <style>
+           .btn1{
+            padding: 10px;
+            height:6%;
+            width:9%;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-weight:bold;
+        }
+        </style>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
+        <script src="crud.js"></script>
+    </head>
+    <body bgcolor="#f5deee">
+    <center>
+        <br><h1>Firebase CRUD Operations</h1>
+        <br><br>
+        <label><b>Student Name:</b></label>
+        <input type="text" id="name"><br/><br/>
+        <label><b>Enter Rollno:</b></label>
+        <input type="text" id="rollno"></body><br/><br/>
+        <button class="btn1" onclick="insertData()">Insert</button>
+        <button class="btn1" onclick="deleteData()">Delete</button>
+        <button class="btn1" onclick="updateData()">Update</button>
+        <button class="btn1" onclick="readData()">Read</button>
+    </center>
+</body>
+</html>
+
